@@ -9,6 +9,28 @@
   align-items: center;
   flex-direction: column;
 }
+.landing__header {
+  display: flex;
+  justify-content: center;
+  height: 5.93rem;
+  color: #45474A;
+  margin-top: 1rem;
+}
+.landing__header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.landing__header-main {
+  font-size: 64px;
+}
+.landing__header-sub {
+  font-size: 16px;
+}
+.landing__main {
+  color: #313335;
+}
 
 * {
   box-sizing: border-box;

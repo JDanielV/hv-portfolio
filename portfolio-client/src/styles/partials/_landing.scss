@@ -6,4 +6,31 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    &__header {
+        display: flex;
+        justify-content: center;
+        height: 5.93rem;
+        color: #45474A;
+        margin-top: 1rem;
+
+        &-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &-main {
+            font-size: 64px;
+        }
+
+        &-sub {
+            font-size: 16px;
+        }
+    }
+
+    &__main {
+        color: #313335;
+    }
 }

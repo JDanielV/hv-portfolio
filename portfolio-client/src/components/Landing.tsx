@@ -1,16 +1,13 @@
 import React from 'react';
 import "../styles/main.css";
+import HeaderLogo from "../assets/logo.svg";
 
 const Landing = () => {
 
     return (
         <section className='landing'>
             <header className='landing__header'>
-                <div className='landing__header-wrapper'>
-                    <h1 className='landing__header-main'>HV</h1>
-                    <h3 className='landing__header-sub'>hector</h3>
-                    <h3 className='landing__header-sub'>villaverde</h3>
-                </div>
+                <img className="landing__header-logo" src={HeaderLogo} alt="logo with capital letters HV" />
             </header>
 
             <main className='landing__main'>
