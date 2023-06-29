@@ -22,7 +22,7 @@ const Landing = () => {
                     <div className="landing__main-contact">
                         <button className="landing__main-contact-btn">
                             <span className="landing__main-contact-btn-text">Resume</span>
-                            <img src="" alt="open in new tab" className="landing__main-contanct-btn-icon" />
+                            <img src={NewTabIcon} alt="open in new tab" className="landing__main-contanct-btn-icon" />
                         </button>
                     </div>
                     <span className='landing__main-text-contact'>hectorvillaverde@shaw.ca</span>
