@@ -1,6 +1,8 @@
 import React from 'react';
 import "../styles/main.css";
 import HeaderLogo from "../assets/logo.svg";
+import LinkedInLogo from "../assets/linkedin.svg";
+import NewTabIcon from "../assets/open_new.svg";
 
 const Landing = () => {
 
@@ -16,8 +18,13 @@ const Landing = () => {
                     <p className='landing__main-text'>I'm Hector. Here you can find photos of some of the products that I've sold, my contact details and resume.</p>
                     <p className='landing__main-header-text'>Thank you for stopping by!</p>
                 </div>
-                <div className='landing__main-wrapper-actions'>
-                    <i className='landing__main-icon'></i>
+                <div className='landing__main-contact-wrapper'>
+                    <div className="landing__main-contact">
+                        <button className="landing__main-contact-btn">
+                            <span className="landing__main-contact-btn-text">Resume</span>
+                            <img src="" alt="open in new tab" className="landing__main-contanct-btn-icon" />
+                        </button>
+                    </div>
                     <span className='landing__main-text-contact'>hectorvillaverde@shaw.ca</span>
                     <span className='landing__main-text-contact'>Vancouver BC, Canada</span>
                 </div>
