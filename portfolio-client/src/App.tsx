@@ -3,7 +3,9 @@ import "./styles/main.css"
 
 function App() {
   return (
-    <Landing />
+    <div className="app">
+      <Landing />
+    </div>
   );
 }
 
