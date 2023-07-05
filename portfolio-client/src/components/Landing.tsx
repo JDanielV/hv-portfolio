@@ -5,6 +5,7 @@ import About from "./About";
 import HeaderLogo from "../assets/logo.svg";
 import LinkedInLogo from "../assets/linkedin_blue.svg";
 import NewTabIcon from "../assets/open_new.svg";
+import ResumePdf from "../assets/files/resume.pdf";
 
 const Landing = () => {
 
@@ -26,12 +27,14 @@ const Landing = () => {
                             <span className='landing__main-text-contact'>hectorvillaverde@shaw.ca</span>
                             <span className='landing__main-text-contact'>Vancouver BC, Canada</span>
                             <div className="landing__main-contact-links">
-                                <button className="landing__main-contact-btn">
-                                    <span className="landing__main-contact-btn-text">Resume</span>
-                                    <div className="landing__main-contact-btn-icon-wrapper">
-                                        <img src={NewTabIcon} alt="open in new tab" className="landing__main-contact-btn-icon" />
-                                    </div>
-                                </button>
+                                <a href={ResumePdf} target="_blank" rel="noreferrer">
+                                    <button className="landing__main-contact-btn">
+                                        <span className="landing__main-contact-btn-text">Resume</span>
+                                        <div className="landing__main-contact-btn-icon-wrapper">
+                                            <img src={NewTabIcon} alt="open in new tab" className="landing__main-contact-btn-icon" />
+                                        </div>
+                                    </button>
+                                </a>
                                 <a href="https://www.linkedin.com/in/hector-villaverde-9a24019/" target='_blank'>
                                     <img src={LinkedInLogo} alt="link to linkedin profile" className="landing__main-contact-link" />
                                 </a>
