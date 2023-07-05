@@ -15,7 +15,9 @@ const Work = () => {
                     <p className="section__text">This photo album is a recollection of some of the products and industries I have experience in. Scroll the gallery, click on a photo to enlarge.</p>
                 </div>
                 <div className="section__body-wrapper">
-                    <div className="section__gallery"></div>
+                    <div className="section__gallery">
+                        
+                    </div>
                 </div>
             </div>
         </section>
