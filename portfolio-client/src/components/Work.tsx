@@ -16,7 +16,7 @@ const Work = () => {
                 </div>
                 <div className="section__body-wrapper">
                     <div className="section__gallery">
-                        
+
                     </div>
                 </div>
             </div>
