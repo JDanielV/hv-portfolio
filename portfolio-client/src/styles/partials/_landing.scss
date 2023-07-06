@@ -10,7 +10,7 @@
     align-items: center;
     flex-direction: column;
     width: 60rem;
-    padding-bottom: 7rem;
+    padding: 0 1rem 5rem 1rem;
 
     &__header {
         display: flex;
@@ -18,6 +18,14 @@
         height: 5.93rem;
         color: #45474A;
         margin-top: 1rem;
+
+        @include tablet {
+            height: 4rem;
+        }
+
+        @include mobile {
+            height: 4rem;
+        }
 
         &-wrapper {
             display: flex;
@@ -37,23 +45,64 @@
 
     &__main {
         margin-top: 4rem;
+        width: 100%;
 
         &-texts-wrapper {
             display: flex;
             gap: 3rem;
             justify-content: space-between;
+
+            @include tablet {
+                flex-direction: column;
+            }
+    
+            @include mobile {
+                flex-direction: column;
+            }
         }
 
         &-header-text {
             margin-bottom: 1rem;
+            
+            @include tablet {
+                max-width: 100%;
+                width: 25rem;
+            }
+    
+            @include mobile {
+                max-width: 100%;
+                width: 25rem;
+            }
         }
 
         &-text {
             margin-bottom: 1rem;
+
+            @include tablet {
+                max-width: 100%;
+                width: 25rem;
+            }
+    
+            @include mobile {
+                max-width: 100%;
+                width: 25rem;
+            }
         }
 
         &-wrapper-text {
             width: 26rem;
+
+            @include tablet {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+    
+            @include mobile {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
         }
 
         &-contact {

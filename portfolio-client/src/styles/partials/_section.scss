@@ -41,12 +41,32 @@
         gap: 2rem;
         width: 100%;
 
+        @include tablet {
+            flex-direction: column;
+        }
+
+        @include mobile {
+            flex-direction: column;
+        }
+
         &-wrapper {
             width: 28rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         &_layout_inverted {
             flex-direction: row-reverse;
+
+            @include tablet {
+                flex-direction: column;
+            }
+
+            @include mobile {
+                flex-direction: column;
+            }
         }
     }
 
@@ -60,6 +80,14 @@
 
         &-wrapper {
             width: 19rem;
+
+            @include tablet {
+                width: 15rem;
+            }
+
+            @include mobile {
+                width: 15rem;
+            }
         }
     }
 
