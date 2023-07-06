@@ -1,8 +1,3 @@
-interface GalleryImage {
-    img: string,
-    description: string
-};
-
 import workImg1 from "../assets/images/work/Canadian-product-demonstration-in-Mexico.jpg";
 import workImg2 from "../assets/images/work/Custom-packaging-prototyping-and-tests-2.jpg";
 import workImg3 from "../assets/images/work/Custom-packaging-prototyping-and-tests-3.jpg";
@@ -32,9 +27,9 @@ import workImg26 from "../assets/images/work/Visit-at-customer-facility-5.jpg";
 import workImg27 from "../assets/images/work/Visit-at-customer-facility-6.jpg";
 import workImg28 from "../assets/images/work/Visit-at-customer-facility-7.jpg";
 import workImg29 from "../assets/images/work/Visit-at-customer-facility-8.jpg";
-import workImg30 from "../assets/images/work/Frozen-tuna-from-Mexico-for-sale-in-Canada-1.jpg";
-import workImg31 from "../assets/images/work/Frozen-tuna-from-Mexico-for-sale-in-Canada-2.jpg";
-import workImg32 from "../assets/images/work/Frozen-tuna-from-Mexico-for-sale-in-Canada-3.jpg";
+import workImg30 from "../assets/images/work/Frozen-tuna-from-Mexico-for-sale-in-Canada-1.jpeg";
+import workImg31 from "../assets/images/work/Frozen-tuna-from-Mexico-for-sale-in-Canada-2.jpeg";
+import workImg32 from "../assets/images/work/Frozen-tuna-from-Mexico-for-sale-in-Canada-3.jpeg";
 import workImg33 from "../assets/images/work/Customer-product-at-major-retailers-1.jpg";
 import workImg34 from "../assets/images/work/Customer-product-at-major-retailers-2.jpg";
 import workImg35 from "../assets/images/work/Customer-product-at-major-retailers-3.jpg";
@@ -52,6 +47,11 @@ import aboutImg1 from "../assets/images/about-me/Personal-interests-1.jpg"
 import aboutImg2 from "../assets/images/about-me/Personal-interests-2.jpg"
 import aboutImg3 from "../assets/images/about-me/Personal-interests-3.jpg"
 import aboutImg4 from "../assets/images/about-me/Personal-interests-4.jpg"
+
+interface GalleryImage {
+    img: string,
+    description: string
+};
 
 export const workImgs: GalleryImage[] = [
     {
