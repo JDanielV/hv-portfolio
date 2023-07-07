@@ -1,8 +1,9 @@
 import React from 'react';
 import AboutImg from "../assets/images/about-me/hero-about-me.png";
 import { aboutImgs } from './images';
+import { SectionProps } from './Landing';
 
-const About = () => {
+const About = ({ handleImgClick }: SectionProps) => {
 
     return (
         <section className='section'>
@@ -22,7 +23,7 @@ const About = () => {
 
                         return (
                             <li key={i} className='section__list-item'>
-                                <div className='section__list-item-img-wrapper'>
+                                <div className='section__list-item-img-wrapper' onClick={() => handleImgClick(img)}>
                                     <img className='section__list-item-img' src={img.img} alt={img.description}/>
                                 </div>
                                 <p className='section__list-item-text'>{img.description}</p>

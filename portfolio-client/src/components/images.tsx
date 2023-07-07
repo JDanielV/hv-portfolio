@@ -235,11 +235,11 @@ export const workImgs: GalleryImage[] = [
 export const aboutImgs: GalleryImage[] = [
     {
         img: aboutImg1,
-        description: "I love riding my BMX bike."
+        description: "I collect basketballs - and I will take any opportunity to use them."
     },
     {
         img: aboutImg2,
-        description: "I collect basketballs - and I will take any opportunity to use them."
+        description: "I love riding my BMX bike."
     },
     {
         img: aboutImg3,

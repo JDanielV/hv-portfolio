@@ -1,13 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../styles/main.css";
 import Work from "./Work";
 import About from "./About";
+import PhotoViewer from './PhotoViewer';
 import HeaderLogo from "../assets/logo.svg";
 import LinkedInLogo from "../assets/linkedin_blue.svg";
 import NewTabIcon from "../assets/open_new.svg";
 import ResumePdf from "../assets/files/resume.pdf";
+import { GalleryImage } from './images';
+
+export interface SectionProps {
+    handleImgClick: (img: GalleryImage) => void;
+}
 
 const Landing = () => {
+
+    const [clickedImg, setClickedImg] = useState<GalleryImage | null>(null);
+
+    const handleImgClick = (img: GalleryImage) => {
+        setClickedImg(img);
+    }
+
+    const handleClosePhotoViewer = () => {
+        setClickedImg(null);
+    }
 
     return (
         <section className='landing'>
@@ -42,9 +58,15 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
-                <Work />
-                <About />
+                <Work handleImgClick={handleImgClick} />
+                <About handleImgClick={handleImgClick} />
             </main>
+            {clickedImg && 
+                <PhotoViewer 
+                    img={clickedImg} 
+                    handleClosePhotoViewer={handleClosePhotoViewer} 
+                />
+            }
         </section>
     )
 }

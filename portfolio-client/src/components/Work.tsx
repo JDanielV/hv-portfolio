@@ -1,8 +1,9 @@
 import React from 'react';
 import WorkImg from "../assets/images/work/hero-work.png";
 import { workImgs } from './images';
+import { SectionProps } from './Landing';
 
-const Work = () => {
+const Work = ({ handleImgClick }: SectionProps) => {
 
     return (
         <section className='section'>
@@ -21,7 +22,7 @@ const Work = () => {
                         {workImgs.map((img, i) => {
 
                             return (
-                                <li key={i} className='section__gallery-item'>
+                                <li key={i} className='section__gallery-item' onClick={() => handleImgClick(img)}>
                                     <img className='section__gallery-item-img' src={img.img} alt={img.description}/>
                                 </li>
                             )
