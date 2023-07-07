@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hv-portfolio/static/css/main.6d95e7dc.css",
-    "main.js": "/hv-portfolio/static/js/main.5852c53e.js",
+    "main.css": "/hv-portfolio/static/css/main.1369a798.css",
+    "main.js": "/hv-portfolio/static/js/main.240f3586.js",
     "static/js/787.562bae8d.chunk.js": "/hv-portfolio/static/js/787.562bae8d.chunk.js",
     "static/media/Process-product-flow-1.jpg": "/hv-portfolio/static/media/Process-product-flow-1.b9eb72d0151c67b9bee5.jpg",
     "static/media/Customer-product-at-major-retailers-3.jpg": "/hv-portfolio/static/media/Customer-product-at-major-retailers-3.b36294a357a04f4d4898.jpg",
@@ -59,12 +59,13 @@
     "static/media/linkedin_blue.svg": "/hv-portfolio/static/media/linkedin_blue.0e9af8480fd50eaf73d40648e4ce510b.svg",
     "index.html": "/hv-portfolio/index.html",
     "static/media/open_new.svg": "/hv-portfolio/static/media/open_new.a724889e17b4991c4f2bac50c443e339.svg",
-    "main.6d95e7dc.css.map": "/hv-portfolio/static/css/main.6d95e7dc.css.map",
-    "main.5852c53e.js.map": "/hv-portfolio/static/js/main.5852c53e.js.map",
+    "static/media/close.svg": "/hv-portfolio/static/media/close.70091c79078fd44e7dc990e1dd1829ec.svg",
+    "main.1369a798.css.map": "/hv-portfolio/static/css/main.1369a798.css.map",
+    "main.240f3586.js.map": "/hv-portfolio/static/js/main.240f3586.js.map",
     "787.562bae8d.chunk.js.map": "/hv-portfolio/static/js/787.562bae8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d95e7dc.css",
-    "static/js/main.5852c53e.js"
+    "static/css/main.1369a798.css",
+    "static/js/main.240f3586.js"
   ]
 }
