@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hv-portfolio/static/css/main.1369a798.css",
+    "main.css": "/hv-portfolio/static/css/main.417eb8d4.css",
     "main.js": "/hv-portfolio/static/js/main.66c63f80.js",
     "static/js/787.562bae8d.chunk.js": "/hv-portfolio/static/js/787.562bae8d.chunk.js",
     "static/media/Process-product-flow-1.jpg": "/hv-portfolio/static/media/Process-product-flow-1.b9eb72d0151c67b9bee5.jpg",
@@ -60,12 +60,12 @@
     "index.html": "/hv-portfolio/index.html",
     "static/media/open_new.svg": "/hv-portfolio/static/media/open_new.a724889e17b4991c4f2bac50c443e339.svg",
     "static/media/close.svg": "/hv-portfolio/static/media/close.70091c79078fd44e7dc990e1dd1829ec.svg",
-    "main.1369a798.css.map": "/hv-portfolio/static/css/main.1369a798.css.map",
+    "main.417eb8d4.css.map": "/hv-portfolio/static/css/main.417eb8d4.css.map",
     "main.66c63f80.js.map": "/hv-portfolio/static/js/main.66c63f80.js.map",
     "787.562bae8d.chunk.js.map": "/hv-portfolio/static/js/787.562bae8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1369a798.css",
+    "static/css/main.417eb8d4.css",
     "static/js/main.66c63f80.js"
   ]
 }
