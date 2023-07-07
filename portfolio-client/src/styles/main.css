@@ -12,6 +12,7 @@
   flex-direction: column;
   width: 60rem;
   padding: 0 4rem 5rem 4rem;
+  overflow: hidden;
 }
 @media (max-width: 768px) {
   .landing {
