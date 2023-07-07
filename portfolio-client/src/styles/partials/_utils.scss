@@ -1,3 +1,11 @@
 .margin-left-auto {
     margin-left: auto;
+
+    @include tablet {
+        margin: auto;
+    }
+
+    @include mobile {
+        margin-left: auto;
+    }
 }

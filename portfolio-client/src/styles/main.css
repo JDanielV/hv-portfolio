@@ -11,7 +11,19 @@
   align-items: center;
   flex-direction: column;
   width: 60rem;
-  padding: 0 1rem 5rem 1rem;
+  padding: 0 4rem 5rem 4rem;
+}
+@media (max-width: 768px) {
+  .landing {
+    font-size: 20px;
+    padding: 0 1rem 5rem 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .landing {
+    font-size: 20px;
+    padding: 0 1rem 5rem 1rem;
+  }
 }
 .landing__header {
   display: flex;
@@ -197,11 +209,15 @@
 @media (max-width: 768px) {
   .section__body {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 400px) {
   .section__body {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 .section__body-wrapper {
@@ -211,21 +227,45 @@
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .section__body-wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .section__body-wrapper {
+    width: 100%;
+  }
+}
 .section__body_layout_inverted {
   flex-direction: row-reverse;
 }
 @media (max-width: 768px) {
   .section__body_layout_inverted {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 400px) {
   .section__body_layout_inverted {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 .section__text {
   width: 20rem;
+}
+@media (max-width: 768px) {
+  .section__text {
+    padding-left: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .section__text {
+    padding-left: 1rem;
+  }
 }
 .section__img {
   width: 100%;
@@ -253,6 +293,20 @@
   max-height: 27.2rem;
   overflow: auto;
 }
+@media (max-width: 768px) {
+  .section__gallery {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .section__gallery {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .section__gallery-item {
   max-width: 8.5rem;
   max-height: 8.5rem;
@@ -267,6 +321,16 @@
   width: 100%;
   transform: scale(175%);
   border-radius: 4px;
+}
+@media (max-width: 768px) {
+  .section__gallery-item {
+    max-width: 45%;
+  }
+}
+@media (max-width: 400px) {
+  .section__gallery-item {
+    max-width: 45%;
+  }
 }
 .section__list {
   display: flex;
@@ -297,6 +361,16 @@
 
 .margin-left-auto {
   margin-left: auto;
+}
+@media (max-width: 768px) {
+  .margin-left-auto {
+    margin: auto;
+  }
+}
+@media (max-width: 400px) {
+  .margin-left-auto {
+    margin-left: auto;
+  }
 }
 
 * {

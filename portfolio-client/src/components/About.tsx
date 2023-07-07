@@ -18,10 +18,10 @@ const About = () => {
                 <div className="section__body-wrapper">
                     <ul className="section__list">
                         
-                    {aboutImgs.map((img) => {
+                    {aboutImgs.map((img, i) => {
 
                         return (
-                            <li className='section__list-item'>
+                            <li key={i} className='section__list-item'>
                                 <div className='section__list-item-img-wrapper'>
                                     <img className='section__list-item-img' src={img.img} alt={img.description}/>
                                 </div>

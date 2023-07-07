@@ -18,10 +18,10 @@ const Work = () => {
                 <div className="section__body-wrapper">
                     <ul className="section__gallery">
 
-                        {workImgs.map((img) => {
+                        {workImgs.map((img, i) => {
 
                             return (
-                                <li className='section__gallery-item'>
+                                <li key={i} className='section__gallery-item'>
                                     <img className='section__gallery-item-img' src={img.img} alt={img.description}/>
                                 </li>
                             )
