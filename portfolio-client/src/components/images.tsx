@@ -48,7 +48,7 @@ import aboutImg2 from "../assets/images/about-me/Personal-interests-2.jpg"
 import aboutImg3 from "../assets/images/about-me/Personal-interests-3.jpg"
 import aboutImg4 from "../assets/images/about-me/Personal-interests-4.jpg"
 
-interface GalleryImage {
+export interface GalleryImage {
     img: string,
     description: string
 };
