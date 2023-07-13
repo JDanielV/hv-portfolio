@@ -1,6 +1,5 @@
 {
   "name": "portfolio-client",
-  "homepage": "https://jdanielv.github.io/hv-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
