@@ -7,14 +7,12 @@ interface PhotoViewerProps {
     handleClosePhotoViewer: () => void;
 }
 
-const PhotoViewer = ({ img, handleClosePhotoViewer } :PhotoViewerProps) => {
+const PhotoViewer = ({ img, handleClosePhotoViewer }: PhotoViewerProps) => {
 
     return (
         <div className='photo-viewer'>
             <div className='photo-viewer__img-text-wrapper'>
-                <div className="photo-viewer__img-wrapper">
-                    <img src={img.img} alt={img.description} className="photo-viewer__img" />
-                </div>
+                <img src={img.img} alt={img.description} className="photo-viewer__img" />
                 <div className="photo-viewer__text-wrapper">
                     <span className="photo-viewer__text">{img.description}</span>
                 </div>

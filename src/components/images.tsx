@@ -55,6 +55,10 @@ export interface GalleryImage {
 
 export const workImgs: GalleryImage[] = [
     {
+        img: workImg43,
+        description: "Tradeshow"
+    },
+    {
         img: workImg1,
         description: "Canadian product demonstration in Mexico"
     },
@@ -221,10 +225,6 @@ export const workImgs: GalleryImage[] = [
     {
         img: workImg42,
         description: "Process product flow"
-    },
-    {
-        img: workImg43,
-        description: "Tradeshow"
     },
     {
         img: workImg44,
