@@ -42,6 +42,8 @@ import workImg41 from "../assets/images/work/Process-product-flow-1.jpg";
 import workImg42 from "../assets/images/work/Process-product-flow-2.jpg";
 import workImg43 from "../assets/images/work/Tradeshow.jpg";
 import workImg44 from "../assets/images/work/Understanding-customer-needs.jpg";
+import workImg45 from "../assets/images/work/logistics-truck.jpg";
+import workImg46 from "../assets/images/work/flexible-packaging.jpg";
 
 import aboutImg1 from "../assets/images/about-me/Personal-interests-1.jpg"
 import aboutImg2 from "../assets/images/about-me/Personal-interests-2.jpg"
@@ -61,6 +63,14 @@ export const workImgs: GalleryImage[] = [
     {
         img: workImg1,
         description: "Canadian product demonstration in Mexico"
+    },
+    {
+        img: workImg45,
+        description: "Logistics"
+    },
+    {
+        img: workImg46,
+        description: "Flexible packaging"
     },
     {
         img: workImg2,
